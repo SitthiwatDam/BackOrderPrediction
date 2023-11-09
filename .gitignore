@@ -1,1 +1,35 @@
 Datasets
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Deployment/client/node_modules
+/Deployment/client/.pnp
+/Deployment/client/.pnp.js
+/Deployment/server/node_modules
+/Deployment/server/.pnp
+/Deployment/server/.pnp.js
+
+# testing
+/Deployment/client/coverage
+/Deployment/server/coverage
+
+# production
+/Deployment/client/build
+/Deployment/server/build
+
+
+# misc
+/Deployment/client/.DS_Store
+/Deployment/client/.env.local
+/Deployment/client/.env.development.local
+/Deployment/client/.env.test.local
+/Deployment/client/.env.production.local
+/Deployment/server/.DS_Store
+/Deployment/server/.env.local
+/Deployment/server/.env.development.local
+/Deployment/server/.env.test.local
+/Deployment/server/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
